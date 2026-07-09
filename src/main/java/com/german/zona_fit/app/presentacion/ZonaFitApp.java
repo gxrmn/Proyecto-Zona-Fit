@@ -1,4 +1,4 @@
-package com.german.zona_fit.app;
+package com.german.zona_fit.app.presentacion;
 
 import com.german.zona_fit.app.datos.ClienteDAO;
 import com.german.zona_fit.app.datos.IClienteDAO;
@@ -8,16 +8,16 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Main {
+public class ZonaFitApp {
     Scanner consola = new Scanner(System.in);
 
     public static void main(String[] args) {
-        Main menu = new Main();
+        ZonaFitApp menu = new ZonaFitApp();
         menu.Menu();
     }
 
     public void Menu(){
-        Main obj = new Main();
+        ZonaFitApp obj = new ZonaFitApp();
         boolean bandera = false;
         int opcion = 0;
 
